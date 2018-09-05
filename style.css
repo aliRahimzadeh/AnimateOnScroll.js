@@ -1,0 +1,59 @@
+.didScroll {
+    transform: scale(0);
+    transition: 0.5s;
+    width:100%;
+    height:300px;
+    background-color:red;
+}
+.slideIn {
+     transform: scale(1);
+/*   uncomment to use with timeline   */
+/*    animation-name: slideIn;
+    -webkit-animation-name: slideIn;	
+    animation-duration: 2s;	
+    -webkit-animation-duration: 2s;			 */
+}
+
+/* Use with timeline if needed */
+/*   @keyframes slideIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+  }	
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+  }
+} */
+
+.a1{
+  background-color:red;
+}
+.a2{
+  background-color:blue;
+}
+.a3{
+  background-color:yellow;
+}
+.a4{
+  background-color:green;
+}
+.a5{
+  background-color:grey;
+}
+.a6{
+  background-color:black;
+}
+.a7{
+  background-color:red;
+}
